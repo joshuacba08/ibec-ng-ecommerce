@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ecommerce-app';
+
+  // declaro variables o propiedades de la clase
+  frutas = [
+    'manzana',
+    'pera',
+    'naranja',
+    'sandia',
+    'melon',
+    'platano',
+    'uva',
+    'cereza',
+    'fresa',
+  ]
+
+
+
 }

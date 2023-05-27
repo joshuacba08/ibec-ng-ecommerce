@@ -1,12 +1,18 @@
-<app-button title="Action 1"></app-button>
-<app-button title="Action 2" [disabled]="true"></app-button>
-<app-button title="Action 3" type="secondary"></app-button>
-<app-button title="Warning" type="warning"></app-button>
-
-
-
-
-
-
 <!-- The router-outlet directive is used to display the views of the different components. -->
 <router-outlet></router-outlet>
+<!-- <app-button title="Action 1"></app-button>
+  <app-button title="Action 2" [disabled]="true"></app-button>
+  <app-button title="Action 3" type="secondary"></app-button>
+<app-button title="Warning" type="warning"></app-button>
+
+<ul>
+  <li *ngFor="let item of frutas">{{ item }}</li>
+</ul>
+
+<span *ngIf="frutas.length===0; else stock">Sin Stock</span>
+
+<ng-template #stock>
+  <span>Con Stock</span>
+</ng-template> -->
+
+
